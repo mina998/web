@@ -10,14 +10,7 @@ class Tidio2{
     constructor(){
         // 替换标志定时器
         this.timer = setInterval(this.replace.bind(this), 10)
-        // 发送GTM追踪事件
-        let tdo_submit_email = sessionStorage.getItem('email')
-        if(!tdo_submit_email){
-        // 追踪事件定时器
-            this.track = setInterval(this.tracking.bind(this), 50)
-        }else{
-            dataLayer.push({ 'event': 'tidio', 'conversionEmail': tdo_submit_email })
-        }
+        this.track = setInterval(this.tracking.bind(this), 50)
     }
     replace(){
         // find tidio iframe
@@ -40,7 +33,7 @@ class Tidio2{
         }
         let email = this.iframe.contentDocument.querySelector('input[type="email"][class="disabled"]')
         if(email){
-            sessionStorage.setItem('email', email.value)
+            dataLayer.push({ 'event': 'tidio', 'conversionEmail': email })
             clearInterval(this.track)
         }
     }
