@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  section[data-id="27aa5524"] {
+    margin-bottom: 10px !important;
+  }
+  section[data-id="27aa5524"] .nasa-icon-box .box-img {
+    min-width: 85px !important;
+    min-height: 85px !important;
+  }
+  div[data-id="778e879f"], div[data-id="3c8cbc3d"], div[data-id="2dadddf2"] {
+    width: 100% !important;
+  }
+  div[data-id="41a535dc"] ul.contact-information li {
+    font-size: 16px;
+  }
+  div[data-id="41a535dc"] .social-icons.nasa-follow .icon .fa.fab {
+    font-size: 32px;
+  }
+  div[data-id="41a535dc"] ul.contact-information li, div[data-id="41a535dc"] .social-icons.nasa-follow, div[data-id="41a535dc"] .elementor-toggle {
+    text-align: center;
+  }
+}
+
+div[data-id="778e879f"] img, div[data-id="3c8cbc3d"] img, div[data-id="2dadddf2"] img {
+  border: 1px solid #eee;
+}
+
+div[data-id="778e879f"] .nasa-sc-pdeal-countdown, div[data-id="3c8cbc3d"] .nasa-sc-pdeal-countdown, div[data-id="2dadddf2"] .nasa-sc-pdeal-countdown {
+  display: none;
+}
+
+#flogo {
+  width: 80px;
+  height: 34px;
+}
+
+#mflogo {
+  width: 160px;
+  height: 68px;
+}
+
+div[data-id="ed45291"] .elementor-widget-wrap {
+  padding-top: 35px !important;
+}
+
+div[data-id="ed45291"] .elementor-widget-wrap *[data-id="f86da0c"] {
+  margin-bottom: 10px !important;
+  margin-top: 3.4px !important;
+}
+
+div[data-id="ed45291"] .elementor-widget-wrap ul {
+  list-style: none;
+}
+
+.product-page .row {
+  max-width: 1200px !important;
+}
