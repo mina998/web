@@ -1,0 +1,29 @@
+ul#menu-2-6ee5443{
+    background-color: black;
+    padding: 30px 30px 20px 30px;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    li{
+        width: fit-content;
+        background-color: #2ecc71;
+        border-radius: 30px;
+        a{
+            font-weight: 700;
+            font-family: Muli;
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+}
+
+.text_li{
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+        }
+    }
+
+}
