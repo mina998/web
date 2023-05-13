@@ -35,6 +35,14 @@
             .astra-shop-summary-wrap{
                 padding: 10px !important;
                 background-color: #fff;
+                a{
+                    display: grid !important;
+                    h2{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
             }
         }
     } 

@@ -33,6 +33,16 @@
   background-color: #fff;
 }
 
+.products_list ul.products li.product .astra-shop-summary-wrap a {
+  display: grid !important;
+}
+
+.products_list ul.products li.product .astra-shop-summary-wrap a h2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /*页脚菜单*/
 .foot_menu li.hfe-creative-menu {
   display: grid;
