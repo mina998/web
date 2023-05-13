@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 产品分类 */
+.shop_by_cate ul > li.product-category a {
+  display: grid !important;
+}
+
+.shop_by_cate ul > li.product-category a img {
+  aspect-ratio: 16 / 9;
+  margin: 0 !important;
+  object-fit: cover;
+}
+
+.shop_by_cate ul > li.product-category a .woocommerce-loop-category__title {
+  position: unset !important;
+}
+
+.shop_by_cate ul > li.product-category a .woocommerce-loop-category__title mark.count {
+  display: none !important;
+}
+
+/* 产品列表 */
+.products_list ul.products li.product .astra-shop-thumbnail-wrap {
+  margin-bottom: 0 !important;
+}
+
+.products_list ul.products li.product .astra-shop-thumbnail-wrap .woocommerce-LoopProduct-link img {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.products_list ul.products li.product .astra-shop-summary-wrap {
+  padding: 10px !important;
+  background-color: #fff;
+}
+
+/*页脚菜单*/
+.foot_menu li.hfe-creative-menu {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+}
+
+.foot_menu li.hfe-creative-menu::before {
+  content: "\f00c";
+  color: #fff;
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+}
