@@ -41,3 +41,28 @@
 		}
 	}
 }
+
+.soroy_card_wrap {
+    @media(max-width:1024px) {
+        & > .elementor-container.elementor-column-gap-custom {
+            gap: 10px;
+            > .elementor-column {
+                .elementor-element-populated{
+                    padding: 40px 10px 20px !important;
+                }
+            }
+        } 
+    }
+    @media(max-width:640px) {
+        & > .elementor-container.elementor-column-gap-custom {
+            // gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            > .elementor-column {
+                .elementor-element-populated{
+                    padding: 40px 10px 20px !important;
+                }
+            }
+        } 
+    }
+}
+

@@ -40,3 +40,21 @@
 .soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap > .elementor-element .elementor-widget-container {
   text-align: center !important;
 }
+
+@media (max-width: 1024px) {
+  .soroy_card_wrap > .elementor-container.elementor-column-gap-custom {
+    gap: 10px;
+  }
+  .soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-element-populated {
+    padding: 40px 10px 20px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .soroy_card_wrap > .elementor-container.elementor-column-gap-custom {
+    grid-template-columns: 1fr 1fr;
+  }
+  .soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-element-populated {
+    padding: 40px 10px 20px !important;
+  }
+}
