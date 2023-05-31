@@ -1,0 +1,43 @@
+.soroy_card_wrap {
+	& > .elementor-container.elementor-column-gap-custom {
+		display: grid;
+		gap: 20px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		> .elementor-column {
+			width: 100%;
+			justify-content: center;
+			.elementor-widget-wrap {
+				&:hover {
+					background-color: #775fdf;
+					h3.elementor-heading-title,
+                    li.elementor-icon-list-item,
+                    .elementor-widget-container,
+					p {
+						color: #fff !important;
+					}
+                    li.elementor-icon-list-item{
+                        .elementor-icon-list-icon i.fas{
+                            color: #c2b5fd;
+                        }
+                    }
+				}
+			    > .elementor-element {
+                    ul.elementor-icon-list-items{
+                        list-style: none;
+                        li.elementor-icon-list-item{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: left;
+                            align-items: center;
+                            gap: 6px;
+                            margin-top: 10px;
+                        }
+                    }
+					.elementor-widget-container {
+						text-align: center !important;
+					}
+				}
+			}
+		}
+	}
+}

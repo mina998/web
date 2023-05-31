@@ -1,0 +1,42 @@
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column {
+  width: 100%;
+  justify-content: center;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover {
+  background-color: #775fdf;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover h3.elementor-heading-title,
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover li.elementor-icon-list-item,
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover .elementor-widget-container,
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover p {
+  color: #fff !important;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap:hover li.elementor-icon-list-item .elementor-icon-list-icon i.fas {
+  color: #c2b5fd;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap > .elementor-element ul.elementor-icon-list-items {
+  list-style: none;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap > .elementor-element ul.elementor-icon-list-items li.elementor-icon-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.soroy_card_wrap > .elementor-container.elementor-column-gap-custom > .elementor-column .elementor-widget-wrap > .elementor-element .elementor-widget-container {
+  text-align: center !important;
+}
