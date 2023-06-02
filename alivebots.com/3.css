@@ -1,0 +1,37 @@
+.cd1 {
+  overflow: hidden;
+}
+
+.cd3 .elementor-widget-container:hover p.elementor-icon-box-description {
+  color: #fff;
+}
+
+.cdi ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cdi ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.bg2 {
+  position: relative;
+}
+
+.bg2::before {
+  content: '';
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -150px;
+  left: -100px;
+  background-color: transparent;
+  background-image: linear-gradient(260deg, #e5ddff 0%, #f5f4ff00 100%);
+  border-radius: 356px 356px 356px 356px;
+  z-index: -0;
+}
