@@ -6,6 +6,10 @@ form.cart input {
   width: 100%;
 }
 
+form.cart .woocommerce button.button.alt {
+  background-color: #7557F0 !important;
+}
+
 .variations select#quantity {
   display: none;
 }
@@ -29,6 +33,8 @@ form.cart input {
   align-items: center;
   padding: 5px;
   cursor: pointer;
+  width: 80px;
+  height: 56px;
 }
 
 .variations .v_item_box .variation_select .item.select {
