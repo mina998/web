@@ -1,0 +1,16 @@
+#soroy_product_list ul.products li.product .product-details {
+  padding: 0;
+  margin: 0;
+}
+
+#soroy_product_list ul.products li.product .product-details .product-action-wrap {
+  display: none;
+}
+
+#soroy_product_list ul.products li.product .product-details .price {
+  display: none;
+}
+
+#soroy_product_list ul.products li.product .product-details h2.woocommerce-loop-product__title {
+  padding: 5px 10px;
+}

@@ -1,89 +1,17 @@
-
-
-// ----------------------------
-
-
-
-#kitnavmenu2{
-    .elementskit-menu-hamburger {
-        display: block;
-    }
-    #ekit-megamenu-h2.elementskit-navbar-nav-default.elementskit-menu-offcanvas-elements{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: -100vw;
-        height: 100%;
-        -webkit-box-shadow: 0 10px 30px 0 rgba(255,165,0,0);
-        box-shadow: 0 10px 30px 0 rgba(255,165,0,0);
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-        -webkit-transition: left .6s cubic-bezier(.6,.1,.68,.53);
-        transition: left .6s cubic-bezier(.6,.1,.68,.53);
-
-        max-width: 350px;
-        border-radius: 0px 0px 0px 0px;
-
-        &.active{
-            left: 0;
-            background-color: rgb(247, 247, 247);
-        }
-
-        ul#menu-h2.elementskit-navbar-nav{
-            display: block;
-            overflow: visible;
-            & > li {
-                font-size: 16px;
-                height: 47px;
-            }
-        }
-
-        .elementskit-nav-identity-panel{
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 1.6;
-            font-family: var(--global-body-font-family);
-            color: var(--global-palette4);
-            text-align: var(--text-align);
-            box-sizing: border-box;
-            display: block;
-            position: relative;
-            z-index: 5;
-            width: 100%;
-            padding: 10px 0px 10px 0px;
-
-            .elementskit-site-title{
-                color:rgb(45, 55, 72);
-                display:block;
-                float:left;
-                height:27.1979px;
-                line-height:27.2px;
-                text-align:start;
-                text-size-adjust:100%;
-                width:10px;
-                -webkit-box-direction:reverse;
-                -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-                button.elementskit-menu-close.elementskit-menu-toggler{
-                    padding: 8px 8px 8px 8px;
-                    margin: 12px 12px 12px 12px;
-                    width: 45px;
-                    border-radius: 3px;
-                    color: rgba(51, 51, 51, 1);
-                    border: 1px solid rgba(0,0,0,.5);
-                    float: right;
+#soroy_product_list{
+    ul.products {
+        li.product {
+            .product-details{
+                padding: 0;
+                margin: 0;
+                .product-action-wrap{
+                    display: none;
+                }
+                .price{
+                    display: none;
+                }
+                h2.woocommerce-loop-product__title{
+                    padding: 5px 10px;
                 }
             }
         }
