@@ -1,0 +1,14 @@
+header{
+    .navbar-collapse{
+        ul.navbar-nav{
+            @media (min-width:1000px) {
+                & > li.menu-item-has-children{
+                    & > ul.sub-menu{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+            }
+        }
+    }
+}
