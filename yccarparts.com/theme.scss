@@ -1,0 +1,83 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+#brx-header{
+    &.slide-up{
+        background-color: #ffffff;
+    }
+    &.sticky.on-scroll.scrolling:not(.slide-up){
+        background-color: rgba(240, 240, 240, .4);
+        section#brxe-jpvrvk{
+            padding-top: 20px !important;
+            padding-bottom: 20px;
+            box-shadow: 0 0 10px 0;
+            backdrop-filter: blur(10px);
+        }
+        #site-logo{
+            fill: rgb(220, 0, 50);
+        }
+        nav {
+            & > ul{
+                & > li{
+                    & > a, & > .head-ico-container .head-ico-wrap > i::before{
+                        color: rgb(220, 0, 50);
+                    }
+                }
+            }
+        }
+    }
+    #site-logo{
+        fill: #ffffff;
+    }
+    nav {
+        & > ul{
+            & > li{
+                & > a, & > .head-ico-container .head-ico-wrap{
+                    &::after{
+                        width: 1px;
+                        height: 1px;
+                        display: block;
+                        content: '';
+                        background-color: transparent;
+                        transition: all .5s ease;
+                        border-radius: 10px;
+                    }
+                    &:hover{
+                        &::after{
+                            width: 5px;
+                            height: 5px;
+                            display: block;
+                            content: '';
+                            background-color: rgb(220, 0, 50);
+                        }
+                    }
+                    display: grid;
+                    gap: 10px;
+                    grid-template-rows: 1fr 5px;
+                    justify-items: center;
+                }
+            }
+        }
+    }
+    &:hover{
+        background-color: azure;
+        #site-logo{
+            fill: rgb(220, 0, 50);;
+        }
+        nav{
+            & > ul{
+                & > li{
+                    a{
+                        color: rgb(220, 0, 50);
+                    }
+                    .head-ico-wrap{
+                        i{
+                            color: rgb(220, 0, 50);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

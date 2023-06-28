@@ -1,0 +1,29 @@
+
+@media(max-width: 768px){
+    #main-footer{
+        .container{
+            width: 100%;
+            padding: 10px;
+            #footer-widgets{
+                padding: 0 !important;
+                .footer-widget:last-child{
+                    padding-left: 0;
+                    border: none;
+                    #block-11, #block-12{
+                        min-width: unset;
+                    }
+                    #rainmaker_form_238{
+                        form{
+                            display: grid;
+                            grid-template-columns: "1fr";
+                            gap: 20px;
+                            .rm_form_el_set:not(:last-child){
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

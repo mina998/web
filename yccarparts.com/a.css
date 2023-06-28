@@ -1,0 +1,71 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+#brx-header.slide-up {
+  background-color: #ffffff;
+}
+
+#brx-header.sticky.on-scroll.scrolling:not(.slide-up) {
+  background-color: rgba(240, 240, 240, 0.4);
+}
+
+#brx-header.sticky.on-scroll.scrolling:not(.slide-up) section#brxe-jpvrvk {
+  padding-top: 20px !important;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px 0;
+  backdrop-filter: blur(10px);
+}
+
+#brx-header.sticky.on-scroll.scrolling:not(.slide-up) #site-logo {
+  fill: #dc0032;
+}
+
+#brx-header.sticky.on-scroll.scrolling:not(.slide-up) nav > ul > li > a, #brx-header.sticky.on-scroll.scrolling:not(.slide-up) nav > ul > li > .head-ico-container .head-ico-wrap > i::before {
+  color: #dc0032;
+}
+
+#brx-header #site-logo {
+  fill: #ffffff;
+}
+
+#brx-header nav > ul > li > a, #brx-header nav > ul > li > .head-ico-container .head-ico-wrap {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 1fr 5px;
+  justify-items: center;
+}
+
+#brx-header nav > ul > li > a::after, #brx-header nav > ul > li > .head-ico-container .head-ico-wrap::after {
+  width: 1px;
+  height: 1px;
+  display: block;
+  content: '';
+  background-color: transparent;
+  transition: all .5s ease;
+  border-radius: 10px;
+}
+
+#brx-header nav > ul > li > a:hover::after, #brx-header nav > ul > li > .head-ico-container .head-ico-wrap:hover::after {
+  width: 5px;
+  height: 5px;
+  display: block;
+  content: '';
+  background-color: #dc0032;
+}
+
+#brx-header:hover {
+  background-color: azure;
+}
+
+#brx-header:hover #site-logo {
+  fill: #dc0032;
+}
+
+#brx-header:hover nav > ul > li a {
+  color: #dc0032;
+}
+
+#brx-header:hover nav > ul > li .head-ico-wrap i {
+  color: #dc0032;
+}
