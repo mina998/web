@@ -1,0 +1,110 @@
+
+form.cart{
+    p{
+        margin: 10px 0 !important;
+    }
+    input{
+        width: 100%;
+    }
+    .woocommerce button.button.alt{
+        background-color: #7557F0 !important;
+    }
+}
+
+.variations{
+    select#quantity{
+        display: none;
+    }
+    .v_item_box{
+        p{
+            margin: 10px 0 !important;
+        }
+        .variation_select{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            .item{
+                border: 2px solid #7557F0;
+                border-radius: 2px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+                width: 80px;
+                height: 56px;
+            }
+            .item.select{
+                color: #fff;
+                background-color: #7557F0;
+            }
+        }
+    }
+}
+.quantity input{
+    height: 40px !important;
+}
+
+.woocommerce-variation-add-to-cart{
+    display: flex;
+    flex-direction: column;
+    button.single_add_to_cart_button{
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+    }
+}
+
+.single_variation_wrap{
+    .woocommerce-variation.single_variation{
+        display: block !important;
+    }
+    > .product_option_desc{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        > div{
+            border-radius: 5px;
+            background-color: #eee;
+            padding: 10px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .woocommerce-variation.single_variation{
+            margin-top: -10px;
+            display: inline-block;
+            font-size: 24px;
+            color: green;
+            margin-left: 10px;
+            del{
+                font-size: 16px;
+            }
+        }
+    } 
+} 
+
+#soroy_product_list{
+    ul.products {
+        li.product {
+            .product-details{
+                padding: 0;
+                margin: 0;
+                .product-action-wrap{
+                    display: none;
+                }
+                .price{
+                    display: none;
+                }
+                h2.woocommerce-loop-product__title{
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+}
