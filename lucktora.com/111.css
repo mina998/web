@@ -1,0 +1,110 @@
+#fy2 .trp-ls-shortcode-current-language {
+  border-top: none !important;
+  border-bottom: none !important;
+  border-color: #e9e9e9 !important;
+  background-color: transparent !important;
+}
+
+#fy2 .trp-ls-shortcode-language {
+  border-top: none !important;
+  border-color: #e9e9e9 !important;
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+  #head-user-list .elementor-icon-list-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #fy2 .trp-ls-shortcode-current-language {
+    border: none !important;
+    padding: 0 !important;
+  }
+  #fy2 .trp-ls-shortcode-language {
+    border-color: #e9e9e9 !important;
+    background-color: #f8f8f8;
+  }
+  #menu2-cart span.amount {
+    color: #ffa364;
+  }
+  div[data-id="f91301d"], div[data-id="930e055"] {
+    background-color: #e6e6e6;
+    height: 42px;
+  }
+  .tt-col {
+    position: relative;
+  }
+  .tt-col::after {
+    content: '+';
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+  .tt-col.tt-active .tt-content {
+    display: block !important;
+  }
+}
+
+#head-seach {
+  width: 100%;
+}
+
+#head-seach .jkit-search-panel {
+  width: 100%;
+}
+
+#head-seach form.jkit-search-group {
+  margin-bottom: 0;
+}
+
+#head-seach form.jkit-search-group input.jkit-search-field {
+  margin-bottom: 0;
+}
+
+.home-product-item:hover {
+  background-color: #777;
+}
+
+.home-product-item:hover h3 {
+  color: #e8425b !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-product-item:hover h3::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #e8425b transparent;
+}
+
+.home-product-item h3 {
+  white-space: nowrap;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+#home-form2 {
+  margin: 0 !important;
+}
+
+#home-form2 .elementor-form {
+  margin: 0;
+}
+
+#home-form2 input {
+  margin: 0;
+  box-shadow: none;
+}
+
+#home-form2 button {
+  margin: 0;
+}
