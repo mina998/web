@@ -138,3 +138,33 @@
         }
     }
 }
+
+// 产品页 
+
+.woocommerce.single-product{
+    .elementor-widget-woocommerce-product-add-to-cart{
+        .elementor-add-to-cart{
+            .stock.in-stock{
+                display: none;
+            }
+            button.shopengine_add_to_list_action{
+                display: none !important;
+            }
+            .quantity.buttons_added{
+                > input{
+                    margin-top: 0 !important;
+                }
+                // .button.is-form{
+                //     width: 30px;
+                // }
+            }
+            button[type="submit"].single_add_to_cart_button{
+                margin: 0;
+                height: auto !important;
+            }
+            #buy_now_button{
+                width: 239px !important;
+            }
+        }
+    }
+}
