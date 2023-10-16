@@ -1,0 +1,73 @@
+.elementor-shortcode .pets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.elementor-shortcode .pets * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-shortcode .pets .dog.cat {
+  border-color: transparent;
+  border-width: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  box-shadow: inset 0 0 5px #d8d8d8;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.elementor-shortcode .pets .dog.cat .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #fff;
+}
+
+.elementor-shortcode .pets .dog.cat .images {
+  padding: 0;
+  margin: 0;
+}
+
+.elementor-shortcode .pets .dog.cat .images img {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  object-fit: cover;
+}
+
+.elementor-shortcode .pets .dog.cat .images ul.pet-options {
+  padding: 10px;
+}
+
+.elementor-shortcode .pets .dog.cat .images ul.pet-options li.icon-options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.elementor-shortcode .pets .dog.cat .images ul.pet-options li.icon-options img {
+  max-width: 50px;
+  object-fit: contain;
+}
+
+.elementor-shortcode .pets .dog.cat .description {
+  padding: 10px;
+  color: #8e8e8e;
+}
+
+.elementor-shortcode .pets .dog.cat .features {
+  color: #222;
+  padding: 10px 10px 20px;
+}
+
+.elementor-shortcode .pets .petfinder-thumbnails {
+  display: none;
+}
+
+.elementor-shortcode .pets div[style="clear: both; "] {
+  display: contents;
+}
