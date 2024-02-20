@@ -1,0 +1,65 @@
+.nf-form-cont input#nf-field-4 {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  height: auto !important;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) {
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) label.nf-checked-label:before {
+  background-color: transparent;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) label.nf-checked-label.checked2:before {
+  background-color: #000;
+  top: 5px;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) label.nf-checked-label::after {
+  border: 2px solid #c4c4c4;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-form-content label {
+  font-size: 12pt;
+  line-height: 20px;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-error.field-wrap .nf-field-element:after {
+  background-color: transparent;
+  color: #ff0015;
+  height: 40px;
+  width: 20px;
+  line-height: 20px;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-error .nf-error-msg {
+  font-size: 10pt;
+}
+
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-field-label label,
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-field-label .nf-label-span {
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.nf-form-cont .nf-form-content input:not([type=button]) {
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: #787878;
+  padding: 0 10px;
+  height: 32px;
+  transition: all .5s;
+}
