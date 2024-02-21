@@ -93,3 +93,9 @@
   height: 32px;
   transition: all .5s;
 }
+
+@media (max-width: 480px) {
+  .nf-form-cont {
+    margin-top: 30px;
+  }
+}
