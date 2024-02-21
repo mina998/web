@@ -1,3 +1,30 @@
+.nf-form-cont {
+  position: relative;
+  max-width: 700px;
+  padding: 5px;
+}
+
+.nf-form-cont span.nf-form-title {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  margin-bottom: 20px;
+}
+
+.nf-form-cont span.nf-form-title h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nf-form-cont .nf-before-form-content {
+  position: absolute;
+  top: 50px;
+  font-size: 10pt;
+  left: 26px;
+}
+
 .nf-form-cont input#nf-field-4 {
   background-color: #000;
   color: #fff;
@@ -6,8 +33,11 @@
   height: auto !important;
 }
 
+.nf-form-cont .nf-form-content {
+  padding: 0;
+}
+
 .nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) {
-  max-width: 700px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
