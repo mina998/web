@@ -44,6 +44,13 @@
   border: 1px solid #dadce0;
 }
 
+.nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) .nf-pass.field-wrap .nf-field-element:after {
+  font-size: 24px;
+  right: 2px;
+  height: 30px;
+  line-height: 30px;
+}
+
 .nf-form-cont .nf-form-content .nf-field-container:not(#nf-field-4-container) label.nf-checked-label:before {
   background-color: transparent;
 }
