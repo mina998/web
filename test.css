@@ -1,0 +1,88 @@
+@media (max-width: 544px) {
+  #ast-mobile-header .site-branding {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #ast-mobile-header .site-branding .site-logo-img {
+    max-height: 80px;
+  }
+  #ast-mobile-header .site-branding .site-logo-img .custom-logo {
+    height: 60px;
+    object-fit: contain;
+  }
+  #primary main#main.site-main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #primary main#main.site-main > article {
+    padding: 0;
+  }
+  #primary main#main.site-main [data-id="9c70cfc"] img {
+    border-radius: 0;
+    box-shadow: none;
+  }
+  #primary main#main.site-main [data-id="37bb58b"] .e-con-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    justify-content: unset;
+  }
+  #primary main#main.site-main [data-id="37bb58b"] .e-con-inner > .elementor-element {
+    scroll-snap-align: start;
+    padding: 0;
+    min-width: calc(50% - 10px);
+  }
+  #primary main#main.site-main [data-id="37bb58b"] .e-con-inner > .elementor-element img {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+  #primary main#main.site-main [data-id="37bb58b"] .e-con-inner > .elementor-element img.elementor-animation-grow:hover {
+    transform: unset !important;
+  }
+  #primary main#main.site-main [data-id="02a6122"] .e-con-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  #primary main#main.site-main [data-id="02a6122"] .e-con-inner > .elementor-element {
+    padding: 0;
+  }
+  #primary main#main.site-main [data-id="02a6122"] .e-con-inner > .elementor-element img {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  #primary main#main.site-main [data-id="a20d94d"] {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 8px;
+  }
+  #primary main#main.site-main [data-id="a20d94d"] .e-con-inner {
+    padding: 0;
+  }
+  #primary main#main.site-main [data-id="a20d94d"] .e-con-inner #wpforms-74 {
+    margin: 0;
+  }
+  footer #block-83 {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  footer .widget {
+    margin-bottom: 0;
+  }
+  h2.elementor-heading-title {
+    font-size: 18px;
+  }
+  h2.elementor-heading-title a {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+}
