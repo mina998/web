@@ -101,18 +101,18 @@
             "default": "auto",
             "outbounds": [
                 "auto",
-                "vless-debian",
-                "vmess-debian",
-                "hy2-debian",
-                "tuic5-debian"
+                "vless-gcp0707",
+                "vmess-gcp0707",
+                "hy2-gcp0707",
+                "tuic5-gcp0707"
             ]
         },
         {
             "type": "vless",
-            "tag": "vless-debian",
-            "server": "146.235.210.235",
-            "server_port": 27703,
-            "uuid": "072e439f-50c5-46a9-bdfa-2e639e6bc90e",
+            "tag": "vless-gcp0707",
+            "server": "35.212.237.24",
+            "server_port": 58358,
+            "uuid": "b59f26c8-6972-4ff8-923b-1816ce9002e1",
             "packet_encoding": "xudp",
             "flow": "xtls-rprx-vision",
             "tls":
@@ -127,15 +127,15 @@
                 "reality":
                 {
                     "enabled": true,
-                    "public_key": "qRIEeDGbWvZjTLOBdmI0F3prEJ29nQstW3XC2TmzNXI",
-                    "short_id": "e24063e5"
+                    "public_key": "tnBqNAi25peAk2ssuue7pIRQtcTlvtZUhKyYIAyIHHY",
+                    "short_id": "c3731435"
                 }
             }
         },
         {
-            "server": "146.235.210.235",
-            "server_port": 2095,
-            "tag": "vmess-debian",
+            "server": "35.212.237.24",
+            "server_port": 2082,
+            "tag": "vmess-gcp0707",
             "tls":
             {
                 "enabled": false,
@@ -156,20 +156,20 @@
                         "www.bing.com"
                     ]
                 },
-                "path": "072e439f-50c5-46a9-bdfa-2e639e6bc90e-vm",
+                "path": "b59f26c8-6972-4ff8-923b-1816ce9002e1-vm",
                 "type": "ws"
             },
             "type": "vmess",
             "security": "auto",
-            "uuid": "072e439f-50c5-46a9-bdfa-2e639e6bc90e"
+            "uuid": "b59f26c8-6972-4ff8-923b-1816ce9002e1"
         },
 
         {
             "type": "hysteria2",
-            "tag": "hy2-debian",
-            "server": "146.235.210.235",
-            "server_port": 38747,
-            "password": "072e439f-50c5-46a9-bdfa-2e639e6bc90e",
+            "tag": "hy2-gcp0707",
+            "server": "35.212.237.24",
+            "server_port": 30274,
+            "password": "b59f26c8-6972-4ff8-923b-1816ce9002e1",
             "tls":
             {
                 "enabled": true,
@@ -182,11 +182,11 @@
         },
         {
             "type": "tuic",
-            "tag": "tuic5-debian",
-            "server": "146.235.210.235",
-            "server_port": 51387,
-            "uuid": "072e439f-50c5-46a9-bdfa-2e639e6bc90e",
-            "password": "072e439f-50c5-46a9-bdfa-2e639e6bc90e",
+            "tag": "tuic5-gcp0707",
+            "server": "35.212.237.24",
+            "server_port": 55858,
+            "uuid": "b59f26c8-6972-4ff8-923b-1816ce9002e1",
+            "password": "b59f26c8-6972-4ff8-923b-1816ce9002e1",
             "congestion_control": "bbr",
             "udp_relay_mode": "native",
             "udp_over_stream": false,
@@ -218,10 +218,10 @@
             "tag": "auto",
             "type": "urltest",
             "outbounds": [
-                "vless-debian",
-                "vmess-debian",
-                "hy2-debian",
-                "tuic5-debian"
+                "vless-gcp0707",
+                "vmess-gcp0707",
+                "hy2-gcp0707",
+                "tuic5-gcp0707"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "1m",
