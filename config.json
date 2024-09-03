@@ -387,13 +387,6 @@
     }
   ],
   "route": {
-    "rule_set": [
-      {
-        "tag": "直链域名",
-        "type": "local",
-        "format": "source",
-        "path": "../rulesets/ID_ubvyufyp.json"
-      },
       {
         "tag": "AI",
         "type": "remote",
@@ -430,11 +423,6 @@
         "download_detour": "🎯 全球直连"
       }
     ],
-    "rules": [
-      {
-        "rule_set": "直链域名",
-        "outbound": "direct"
-      },
       {
         "rule_set": "AI",
         "outbound": "💬 ChatGPT"
@@ -514,10 +502,6 @@
     "disable_expire": true,
     "independent_cache": true,
     "rules": [
-      {
-        "rule_set": "直链域名",
-        "server": "local-dns"
-      },
       {
         "ip_cidr": "192.168.50.254/8",
         "server": "local-dns"
