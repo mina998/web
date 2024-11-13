@@ -1,0 +1,111 @@
+
+div[data-elementor-type="footer"].elementor-30456 {
+    background-color: #383838;
+}
+
+div[data-elementor-id="30456"] {
+    // 第一行
+    div[data-id="bc7a337"] {
+        // container
+        .e-con-inner {
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr;
+            // 页脚导航区域
+            div[data-id="51b6916"]{
+                display: flex;
+                gap: 20px;
+                div[data-id="24561b7"]{
+                    display: grid;
+                    // grid-template-columns: 1fr;
+                    gap: 15px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .elementor-widget-nav-menu{
+                    width: fit-content;
+                    // ul 列表
+                    ul#menu-1-7c6e2bf{
+                        display: flex;
+                        gap: 15px;
+                        padding: 0 5px;
+                        flex-direction: column;
+                        > li {
+                            > a{
+                                padding: 0;
+                            }
+                            // 子菜单
+                            ul.sub-menu{
+                                padding: 10px 5px;
+                                flex-direction: column;
+                                gap: 10px;
+                                &[aria-hidden="false"]{
+                                    display: flex;
+                                }
+                               li{
+                                    a{
+                                        padding: 5px;
+                                        display: flex;
+                                        align-items: center;
+                                        min-width: 280px;
+                                        &:hover{
+                                            background-color: #f0f0f0;
+                                            color: #000;
+                                        }
+                                    }
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+
+            // 表单区域
+            div[data-id="f525872"]{
+                input{
+                    color: #fff;
+                }
+                input::placeholder{
+                    color: #ddd;
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            .e-con-inner {
+                padding-top: 20px;
+                grid-template-columns: 1fr;
+                // 站点logo
+                .elementor-widget-theme-site-logo img{
+                    height: 200px;
+                    object-fit: cover;
+                    width: fit-content;
+                }
+                // 页脚导航区域
+                div[data-id="24561b7"]{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-content: flex-start;
+                }
+            }
+        }
+        @media (max-width: 480px) {
+            .e-con-inner {
+                .elementor-widget-nav-menu{
+                    ul#menu-1-7c6e2bf{
+                        > li {
+                            // 子菜单
+                            ul.sub-menu{
+                               margin: 5px 0 0 !important;
+                               >li{
+                                a{
+                                    font-size: 14px;
+                                }
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
